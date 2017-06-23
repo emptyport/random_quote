@@ -17,7 +17,7 @@ class Quote extends Component {
   }
 
   getQuote() {
-    var baseUrl = "http://api.forismatic.com/api/1.0/";
+    var baseUrl = "https://api.forismatic.com/api/1.0/";
     var format = "jsonp";
     var lang = "en";
     var url = baseUrl + "?method=getQuote&format=" + format + "&lang=" + lang + "&jsonp=?";
