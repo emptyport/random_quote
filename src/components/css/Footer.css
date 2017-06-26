@@ -1,0 +1,11 @@
+.github {
+    font-size: 24px;
+}
+
+.credits {
+    margin: 5px;
+    padding: 5px;
+    display: inline-flex;
+    font-style: italic;
+    font-size: 12px;
+}

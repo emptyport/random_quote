@@ -1,0 +1,22 @@
+.quoteContainer {
+    height: 120px;
+}
+
+.buttonContainer {
+    display: inline-flex;
+}
+
+.btn {
+    border-radius: 4px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    margin: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: grey;
+}
