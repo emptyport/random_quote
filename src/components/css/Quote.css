@@ -1,5 +1,7 @@
 .quoteContainer {
     height: 120px;
+    padding: 20px;
+    color: cornsilk;
 }
 
 .buttonContainer {
@@ -9,14 +11,16 @@
 .btn {
     border-radius: 4px;
     border-style: solid;
-    border-color: black;
+    border-color: cornsilk;
     padding: 5px;
     margin: 5px;
     background-color: transparent;
     cursor: pointer;
     font-size: 18px;
+    color: cornsilk;
 }
 
 .btn:hover {
-    background-color: grey;
+    background-color: lavender;
+    color: navy;
 }

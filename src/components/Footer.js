@@ -4,12 +4,12 @@ import './css/Footer.css';
 class Footer extends Component {
   render () {
     return (
-      <div>
+      <div className="footerContainer">
         <div className="credits">
-          Quotes come from <a href="https://forismatic.com/en">forismatic.com</a>
+          Quotes from&nbsp;<a href="https://forismatic.com/en" target="_blank">forismatic.com</a>
         </div>
         <div className="credits">
-          Code available on Github <a href="https://github.com/emptyport/random_quote" target="_blank"><i className="fa fa-github"></i></a>
+          Code available on&nbsp;<a href="https://github.com/emptyport/random_quote" target="_blank">Github&nbsp;<i className="fa fa-github"></i></a>
         </div>
       </div>
     )

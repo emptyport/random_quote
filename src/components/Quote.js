@@ -13,6 +13,7 @@ class Quote extends Component {
 
     this.getQuote = this.getQuote.bind(this);
     this.handleClick = this.handleClick.bind(this);
+    this.handleTweet = this.handleTweet.bind(this);
   }
 
   componentDidMount() {
@@ -21,6 +22,11 @@ class Quote extends Component {
 
   handleClick() {
     this.getQuote();
+  }
+
+  handleTweet() {
+    var tweet = this.state.quote + " -" + this.state.author;
+    window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(tweet));
   }
 
   getQuote() {
@@ -62,7 +68,7 @@ class Quote extends Component {
           <button className="btn" onClick={this.handleClick}>Get Quote</button>
         </div>
         <div className="buttonContainer">
-          <button className="btn">
+          <button className="btn" onClick={this.handleTweet}>
             <i className="fa fa-twitter"></i> Tweet
           </button>
         </div>
